@@ -3,7 +3,7 @@ const Author = document.getElementById('author');
 
 function getQuote() {
     fetch("http://quotes.stormconsultancy.co.uk/random.json")
-    .then((res) =>{
+    .then((res) => {
         return res.json();
     })
     .then((data) =>{
